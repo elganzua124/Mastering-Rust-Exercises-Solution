@@ -1,7 +1,9 @@
 [package]
 name = "Mastering-Rust-ch01"
-version = "0.0.0"
+version = "0.1.0"
+authors = ["Francisco Herrera <fran.herrera124@gmail.com>"]
 
 [[bin]]
 name = "wordcounter"
 path = "src/wordcounter/bin/main.rs"
+

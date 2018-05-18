@@ -41,7 +41,7 @@ fn main() {
     for line in reader.lines() {
         let line = line.expect("Could not read line");
         //let words: Vec<&str> = line.split(" ").collect();
-        let words = line.trim().split(" ");
+        let words = line.split(" ");
         for word in words {
             if word == "" {
                 continue;
