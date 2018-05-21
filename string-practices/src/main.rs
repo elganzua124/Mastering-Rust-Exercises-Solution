@@ -25,7 +25,7 @@ fn print_slice_string(string: &str) {
 
 fn sum_slice(slice: &[usize]) -> usize{
 	let mut sum = 0;
-	for i in slice.iter() {
+	for i in slice {// it's not neccesary to put slice.iter()
 		sum+=i;
 	}
 	sum
